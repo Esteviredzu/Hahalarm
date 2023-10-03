@@ -11,7 +11,7 @@ class Alarm:
         self.root = root
         root.geometry('400x200')
         self.root.title("Hahalarm")
-        self.root.iconphoto(False, tk.PhotoImage(file='hahicon.png'))
+        self.root.iconphoto(False, tk.PhotoImage(file='ALARM/hahicon.png'))
 
         # Поле ввода часов
         self.hour_entry = tk.Entry(self.root)
